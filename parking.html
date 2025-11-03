@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Parking</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/car.png" rel="icon">
+  <link href="assets/img/car.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+  <style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+</style>
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+     
+
+    
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html">Smart Driver Assistant</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto active" href="scope.html">Scope</a></li>
+		  <li class="dropdown"><a href="#"><span>Milestones</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="https://docs.google.com/presentation/d/1U1RMQ6P4cGWV6Jsm_Ghd3c2Hh7CkVi_p/edit?usp=sharing&ouid=103469174014758531397&rtpof=true&sd=true">Project Proposal</a></li>
+              <li><a href="https://docs.google.com/presentation/d/1UJFXqzlBt8f1dkdKhBodtpJOUPWpJyVC/edit?usp=sharing&ouid=103469174014758531397&rtpof=true&sd=true">Progress Presentation 1</a></li>
+              <li><a href="https://docs.google.com/presentation/d/1LasGk28wcM0KBorlwOerrMcSdRBQRclw/edit?usp=sharing&ouid=103469174014758531397&rtpof=true&sd=true">Progress Presentation 2</a></li>
+              <li><a href="https://drive.google.com/drive/folders/1sQDYNhZFpwGm9OF-b7b-vOdKiFbbanFR?usp=sharing">Demo</a></li>
+			  <li><a href="https://drive.google.com/file/d/1TAw160fj69pYbtCUFlM73zghBGDMnQyz/view?usp=sharing">Final Assessment</a></li>
+              <li><a href="#">Viva</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto " href="documents.html">Documents</a></li>
+          <li><a class="nav-link scrollto" href="presentation.html">Presentations</a></li>
+          <li><a class="nav-link scrollto " href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <br>
+ <h2 style="text-align:center;">Finding Available Parking Slots</h2>
+ <br>
+  <main id="main">
+    <!-- ======= Literature Survey ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2 style="text-align:left;">Literature Survey</h2>
+         <p style="text-align:justify;">Based on the research conducted by Jongseong Gwak,
+This is about the Detection methods based on the use of sensors like ultrasonic, infrared, and
+microwave for the detection of parking slots . Wan-Joo Park et al. proposed the utilization of
+ultrasonic sensors mounted on the vehicles to look for a free parking spot. The hindrance of this
+strategy was that the sensors are handily influenced by variations of climate conditions. Vamsee
+K. Boda et al's technique was less expensive, and it utilizes the remote sensor hubs executed at
+basic spots like the path turns. The aggregate number of vehicles in the leaving zone can be
+controlled by the distinction between approaching and active vehicles. Nazia Bibi et al.
+proposed the utilization of CCTV live video recordings by using Image Processing to find the
+empty parking slot. This research failed to remove the hindrances such as tress that hides the
+view of the CCTV camera. Varshali Jaiswal et al's research also used the image processing
+technique but it failed to detect parking slots in bad weather. Our proposed solution is made
+efficient with the use of Convolutional Neural networks and deep learning techniques. With the help of these technologies, obstacles that hide the view will get eliminated. Moreover, the detected
+images will be robust to disturbances due to partial occlusions, the occurrence of shadows, and the
+variation of climate changes. Nazia Bibi et al. proposed a solution to display both occupied
+and empty slots. Here drivers need to visit the place physically to know vacant slot details. If
+there is no slot available, they need to return. So, this is not an effective solution. Here we propose
+a handy mobile app with a real-time update by using cloud services for the user. Tejal Lotlikar et
+al. researched for developing a mobile app for finding parking slots, but no mobile app supported
+slot finding via voice while riding.The proposed solution has robust detection for processing
+the images in the parking areas to find empty slots. It also includes voice assistance for the enduser for updating the details in real-time.
+</p>
+        </div>
+		
+		
+      </div>
+    </section><!-- End Services Section -->
+<br><br>
+  <!-- ======= Methodology ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+		
+		<div class="section-title" data-aos="fade-up">
+          <h2 style="text-align:left;">Methodology</h2>
+         <p style="text-align:justify;">The eyes are recognized using dlib's face landmarks.dat since it is a more effective approach than
+As per the findings of the literature review, the most essential aspects of this study are technology
+choices and software solutions. This proposal using video footage of the parking area to find the
+parking slots with computer vision-based technology. Using DL with CNN technologies will help
+to get more efficient and robust results (Remove the partial occlusions, climate changes, remove
+the shadows and try to decrease the false-positive results) then these results will be saved in the
+firebase cloud database. End-user (driver) can be asked to find the parking slots to their planned
+visiting place through his/ her voice by the intelligent mobile app while driving. Then the app will
+search in the firebase and getting the result of the empty slot details of asked place and will give
+the result to the driver through the voice assistant. So, the driver will be updated in real-time while
+driving the vehicle and will get informed before reaching the planned place. 
+
+</p><br><img src="assets/img/team/methodN.jpeg" alt="" class="center">
+        </div>
+		
+		
+		
+
+        
+
+      </div>
+    </section><!-- End Services Section -->  
+<br><br>
+  <!-- ======= Research Problem ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+		
+		<div class="section-title" data-aos="fade-up">
+          <h2 style="text-align:left;">Research Problem</h2>
+         <p style="text-align:justify;">Finding the empty parking slots in a hurry situation is too difficult while driving. This sort of issue
+for the most part happens in urban communities close to shopping malls, medical clinics, theaters,
+airport and so forth, where the number of vehicles is more prominent when contrasted with the
+parking spots. Circle around the parking area for searching the empty parking space is timeconsuming and wastage of fuel. if it happens in hospital parking areas in an emergency it may
+cause a critical impact on patient’s health. Mostly the parking spaces to remain unoccupied,
+however, the total occupancy is low because of bad management of the parking lot. This causes
+ineffective use of the parking area and results in traffic jams and congestion near the parking lots
+. displaying the slot details in the widescreen at the parking areas is also not effective because
+users need to visit the place for getting the details of the slots if the parking area is full, the driver
+needs to go away from the place and finding the other available parking areas again this is also
+time-consuming. Using the mobile phone while driving to get the details of slots may pave the
+way for accidents so use the app with an intelligent voice assistant may reduce the accidents.
+Some intriguing research problems were discovered while conducting research in this sector, and
+they are described following.
+<ul style="text-align:left;">
+• How to avoid occlusions while detection process?
+</ul><ul style="text-align:left;">
+• How can the user get the empty slot details before reaching their destination?
+</ul><ul style="text-align:left;">
+• How to control the traffic near the parking area due to the bad management in parking
+area?
+</ul><ul style="text-align:left;">
+• How to reduce the accidents while using mobile phones?
+</ul>
+<p style="text-align:justify;">To resolve the above-mentioned issues, our system contains effective and robust detection for
+processing the video footages in the parking areas for finding the empty parking slots and it
+includes a voice assistant mobile application for the end-user/driver for updating the details in realtime.</p>
+</p>
+        </div>
+		
+		
+		
+
+        
+
+      </div>
+    </section><!-- End Services Section -->  
+	<br><br>
+  <!-- ======= Research Gap ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+		
+		<div class="section-title" data-aos="fade-up">
+          <h2 style="text-align:left;">Research Gap</h2>
+         <p style="text-align:justify;">There are some existing research/ systems available for detecting the parking slots using computer
+vision-based techniques. But they are providing less efficient and false-positive results. The results
+are affected due to the different climate changes, the presence of shadows nearby parking slots,
+and removing the obstacles like trees, walking people, and animals in the parking area. So, we
+propose a solution for getting more efficient and robust results by using Deep Learning with
+Convolutional Neural Network technologies. The existing method of displaying the slot details in
+the widescreen display at the parking areas is also not effective because users need to visit the
+certain place for getting know about the slot details here, we propose a mobile application updating
+with cloud platform will be useful for drivers to get updated the slot details while driving the
+vehicle before reaching their planned destination. Moreover, using a mobile phone while driving
+may cause accidents, so we developed this mobile app with an intelligent voice assistant to finding
+the parking slot details
+</p>
+        </div>
+		
+		
+		
+
+        
+
+      </div>
+    </section><!-- End Services Section -->  
+  </main><!-- End #main -->
+<br><br>
+ <div class="text-center">
+               <a href="scope.html"><button type="button" class="btn btn-dark">Back To Scope</button></a>
+              </div>
+			  <br><br>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Smart Driver Assistant</h3>
+            <p>
+              SLIIT Malabe Campus,  <br>
+              New Kandy Rd, Malabe.<br>
+              Sri Lanka <br><br>
+              <strong>Phone:</strong> 077 09836753<br>
+              <strong>Email:</strong> driverassistantsliit@gmail.com<br>
+            </p>
+          </div>
+
+         
+
+          
+
+          <div class="col-lg-4 col-md-6 footer-newsletter" style="margin-left:500px;">
+            <h4>Join Our Newsletter</h4>
+            <p>Stay update with our latest</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-lg-flex py-4">
+
+      <div class="me-lg-auto text-center text-lg-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Smart Driver Assistant</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">Smart Driver Assistant</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

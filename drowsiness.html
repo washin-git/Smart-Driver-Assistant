@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Drowsiness Detection</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/car.png" rel="icon">
+  <link href="assets/img/car.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <style>
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+
+}
+</style>
+</head>
+
+<body>
+
+  <!-- ======= Top Bar ======= -->
+  <section id="topbar" class="d-flex align-items-center">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+     
+
+    
+    </div>
+  </section>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <div class="logo">
+        <h1><a href="index.html">Smart Driver Assistant</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto" href="index.html">Home</a></li>
+          <li><a class="nav-link scrollto active" href="scope.html">Scope</a></li>
+		  <li class="dropdown"><a href="#"><span>Milestones</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+               <li><a href="https://docs.google.com/presentation/d/1U1RMQ6P4cGWV6Jsm_Ghd3c2Hh7CkVi_p/edit?usp=sharing&ouid=103469174014758531397&rtpof=true&sd=true">Project Proposal</a></li>
+              <li><a href="https://docs.google.com/presentation/d/1UJFXqzlBt8f1dkdKhBodtpJOUPWpJyVC/edit?usp=sharing&ouid=103469174014758531397&rtpof=true&sd=true">Progress Presentation 1</a></li>
+              <li><a href="https://docs.google.com/presentation/d/1LasGk28wcM0KBorlwOerrMcSdRBQRclw/edit?usp=sharing&ouid=103469174014758531397&rtpof=true&sd=true">Progress Presentation 2</a></li>
+              <li><a href="https://drive.google.com/drive/folders/1sQDYNhZFpwGm9OF-b7b-vOdKiFbbanFR?usp=sharing">Demo</a></li>
+			  <li><a href="https://drive.google.com/file/d/1TAw160fj69pYbtCUFlM73zghBGDMnQyz/view?usp=sharing">Final Assessment</a></li>
+              <li><a href="#">Viva</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto " href="documents.html">Documents</a></li>
+          <li><a class="nav-link scrollto" href="presentation.html">Presentations</a></li>
+          <li><a class="nav-link scrollto " href="about.html">About us</a></li>
+          <li><a href="contact.html">Contact us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <br>
+ <h2 style="text-align:center;">Drowsiness Detection</h2>
+ <br>
+  <main id="main">
+    <!-- ======= Literature Survey ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2 style="text-align:left;">Literature Survey</h2>
+         <p style="text-align:justify;">Based on the research conducted by Jongseong Gwak,
+Akinari Hirao, and Motoki Shino, drowsiness has got
+detected based on hybrid sensing, which has got based on
+machine learning. Their research focused on alerting the
+drivers based on the driver's level of drowsiness. They have
+used drowsiness level, the driver's performance, and
+behavioral and psychological signs. Research conducted
+by Mohamad-Hoseyn Sigari, Mahmood Fathy, and Mohsen
+Soryani focused on fatigue and distraction while driving a
+vehicle. Here they have introduced an approach to find
+the symptoms of face and eyes. Researchers have used a face
+template matching and used horizontal projection to
+extract hypervigilance symptoms from both the face and eye
+of the driver. Researchers used the rotation of the head as a
+symptom to identify distraction from the face area. The
+data they have found by extracting is the percentage of eye
+closure, change in eyelid's distance while comparing
+with usual distance, and the rate of eye closure.
+According to T. Vesselenyi, S. Moca1, A. Rus1, T. Mitran1,
+B. Tătaru1, there are two possibilities to detect drowsiness. They have a proposed a method to identify drowsiness using
+two artificial neural networks. Those are an autoencoder
+network and a hidden layer network. Researchers used
+the images taken while driving. By those images, they
+analyzed whether the eyes are opened or closed or
+half-opened. Lisheng Jin, Qingning Niu, Yuying Jiang,
+Huacai Xian, Yanguang Qin, and Meijiao Xu have also
+researched to detect drowsiness. Their research used a
+support vector machine to detect eyeball movements.
+The collected data included the frequency of blinking ,
+the direction of gaze, and fixation time. The system
+that we develop can detect and alert the sleepy driver to avoid
+the risk of accidents.This detection system is
+implemented on Android-based smartphones application. We
+use the target human eye object because the adult's Human
+eyes blink 10-15 times in one minute. We use the Keras and
+TensorFlow classifier object detection method. Keras
+classifier makes it easy to distinguish between the
+background of objects and the objects that are the target itself. </p>
+        </div>
+		
+		
+      </div>
+    </section><!-- End Services Section -->
+<br><br>
+  <!-- ======= Methodology ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+		
+		<div class="section-title" data-aos="fade-up">
+          <h2 style="text-align:left;">Methodology</h2>
+         <p style="text-align:justify;">The eyes are recognized using dlib's face landmarks.dat since it is a more effective approach than
+the previous one. The face is detected using haar-like characteristics because it is a rapid and
+efficient way. When both eyes are detected, they are fed into a convolutional neural network that
+has been trained to classify them. A counter's value will grow if both eyes are categorized as closed;
+otherwise, it will decrease. When the counter hits a certain level, the driver is considered drowsy,
+an alarm sounds, and a red border appears around the application's window. When the value of the
+counter falls below the threshold, the alarm will go off and the border will disappear.
+Image data is often analyzed using convolutional neural networks (CNN), which convert images
+into output results. However, to understand the spatial connection between each feature for the two
+states, we decided to design a 1-D CNN and send numeric features as sequential input data. A
+convolution layer, a later flattened layer, two fully connected dense layers, and an output layer in
+front of the output layer form our CNN model. Before the output of the convolution layer is
+transferred to the first dense layer, the flattening layer smoothsit out and makes it linear. To prevent
+our model from overfitting the training data, the abandonment layer randomly removes 20% of the
+output nodes from the second dense layer. A single exit node in the last dense shift outputs 0 for
+alarm and 1 for drowsiness.
+OpenCV was used to collect video from a camera and feed it into a Deep Learning model that can
+determine whether a person's eyes are 'Open' or 'Closed.' The following are the steps involved:
+<ul style="text-align:left;">
+• Step 1: Take video from a camera as input and read it with OpenCV.
+</ul><ul style="text-align:left;">
+• Step 2: Create a Region of Interest around the face in the video (ROI).
+</ul><ul style="text-align:left;">
+• Step 3: Use the ROI to detect the eyes and submit them to the CNN classifier.
+</ul><ul style="text-align:left;">
+• Step 4: The CNN classifier will determine whether or not the eyes are open.
+</ul><ul style="text-align:left;">
+• Step 5: Calculate a score to see if the person is sleepy (If the eyes are close for above 20 seconds
+the alarm will ring).</ul>
+<p style="text-align:justify;">Keras was used to create the model, which uses Convolutional Neural Networks (CNN). A
+convolutional neural network is a sort of deep neural network that works exceptionally well when
+it comes to image classification. A CNN is made up of three layers: an input layer, an output layer, 
+18 | P a g e
+and a hidden layer with numerous layers. These layers are convolution using a filter that conducts
+2D matrix multiplication on both the layer and the filter.
+The CNN model architecture consists of the following layers:</p>
+<ul style="text-align:left;">
+• Convolutional layer; 32 nodes, kernel size 3
+</ul><ul style="text-align:left;">
+• Convolutional layer; 32 nodes, kernel size 3
+</ul><ul style="text-align:left;">
+• Convolutional layer; 64 nodes, kernel size 3
+</ul><ul style="text-align:left;">
+• Fully connected layer; 128 nodes
+</ul><ul style="text-align:left;">
+• The final layer is also a fully connected layer with 2 nodes. In all the layers, a Relu
+activation function is used except the output layer in which the Softmax activation function
+is used.</ul>
+
+</p><br><img src="assets/img/team/method.png" alt="" class="center">
+        </div>
+		
+		
+		
+
+        
+
+      </div>
+    </section><!-- End Services Section -->  
+<br><br>
+  <!-- ======= Research Problem ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+		
+		<div class="section-title" data-aos="fade-up">
+          <h2 style="text-align:left;">Research Problem</h2>
+         <p style="text-align:justify;">There are several problems to consider while creating a system to detect the driver's state. Detecting
+the driver's tiredness is one of the most difficult tasks. The researchers developed an algorithm to
+find, track, and use the driver's face and eyes to evaluate eye closure, which has been shown to be
+a reliable marker of weariness. The utilization of behavioral action measures is the subject of this
+study. A tired person exhibits a variety of distinct facial gestures, such as quick and steady
+squinting, pointing, or swinging their head, as well as regular yawning. Drivers' drowsiness levels
+are commonly determined by measuring their abnormal actions using computerized, non-meddling
+behavioral techniques.
+Sunlight is one of the most important components of any image processing system for detecting
+and tracking eye closure. The quality of data processing will be greatly influenced by an
+appropriate lighting system. As a result, an infrared illuminator can be employed to aid in the
+detection of eye closure at night, when most accidents occur when the lighting is low, depending
+on the route. Finally, an alarm system is set up to notify the driver if he or she is tired or inebriated, as well as
+the ignition system, which is utilized to start or switch the engine. Furthermore, some people wear
+sunglasses or specs while driving so that we can't see their eyes. 
+</p>
+        </div>
+		
+		
+		
+
+        
+
+      </div>
+    </section><!-- End Services Section -->  
+	<br><br>
+  <!-- ======= Research Gap ======= -->
+    <section id="services" class="services section-bg">
+      <div class="container">
+		
+		<div class="section-title" data-aos="fade-up">
+          <h2 style="text-align:left;">Research Gap</h2>
+         <p style="text-align:justify;">Some apps/devices are now available in new model cars to detect the driver's drowsiness and
+inform him or her while driving. However, we introduce a new solution for drivers to detect their
+drowsiness automatically by gathering the levels of drowsiness (low, below average, and above average) and trying to alert the driver using Artificial Intelligent Voice Assistant. When the Driver
+Crosses Each Level, the System will alert the Driver with voice and suggest some options to
+overcome their drowsiness, such as playing good music. When the user's sleepiness level exceeds
+"Above Average," the app/device will propose nearby free parking spaces and alert the driver to
+take a rest in those spaces.
+</p>
+        </div>
+		
+		
+		
+
+        
+
+      </div>
+    </section><!-- End Services Section -->  
+  </main><!-- End #main -->
+<br><br>
+ <div class="text-center">
+               <a href="scope.html"><button type="button" class="btn btn-dark">Back To Scope</button></a>
+              </div>
+			  <br><br>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h3>Smart Driver Assistant</h3>
+            <p>
+              SLIIT Malabe Campus,  <br>
+              New Kandy Rd, Malabe.<br>
+              Sri Lanka <br><br>
+              <strong>Phone:</strong> 077 09836753<br>
+              <strong>Email:</strong> driverassistantsliit@gmail.com<br>
+            </p>
+          </div>
+
+         
+
+          
+
+          <div class="col-lg-4 col-md-6 footer-newsletter" style="margin-left:500px;">
+            <h4>Join Our Newsletter</h4>
+            <p>Stay update with our latest</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container d-lg-flex py-4">
+
+      <div class="me-lg-auto text-center text-lg-start">
+        <div class="copyright">
+          &copy; Copyright <strong><span>Smart Driver Assistant</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/flexor-free-multipurpose-bootstrap-template/ -->
+          Designed by <a href="https://bootstrapmade.com/">Smart Driver Assistant</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-lg-right pt-3 pt-lg-0">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
